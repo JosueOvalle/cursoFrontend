@@ -9,12 +9,33 @@
     p {
       color: salmon;
     }
+    p::first-letter {
+      color: teal;
+    }
+    p::before {
+      content: "✨";
+    }
+    p::after {
+      content: "👻";
+    }
     p:hover {
-
+      color: skyblue;
+    }
+    div p:nth-child(2) {
+      color: violet;
+    }
+    ::placeholder {
+      color: tomato;
     }
   </style>
 </head>
 <body>
   <p>Hola</p>
+  <div>
+    <p>Platzi</p>
+    <p>Master</p>
+    <p>Lo mejor</p>
+  </div>
+  <input type="text" placeholder="name">
 </body>
 </html>
