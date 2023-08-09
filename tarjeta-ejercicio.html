@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
     body {
       background: grey;
     }
@@ -37,6 +38,20 @@
       grid-row: 2 / 4;
       box-sizing: border-box;
     }
+    div .name {
+      font-family: 'Work Sans', sans-serif;
+      color: #565656;
+      text-align: center;
+      grid-column: 2 / 4;
+      grid-row: 4 / 5;
+    }
+    div .job {
+      font-family: 'Work Sans', sans-serif;
+      color: #cecece;
+      text-align: center;
+      grid-column: 2 / 4;
+      grid-row: 5 / 6;
+    }
   </style>
 </head>
 <body>
@@ -44,6 +59,8 @@
     <div class="card">
       <img src="./fotos/Portada.-Podcast-viaje-por-Guatemala-y-El-Salavador.-Foto.-Summa.jpg" alt="Fotografía de Antigua Guatemala" class="portada">
       <img src="./fotos/IMG_20230403_165312.jpg" alt="Fotografía de Josué Ovalle" class="selfie">
+      <h2 class="name">Josué Ovalle</h2>
+      <p class="job">Frontend Developer</p>
     </div>
   </section>
 </body>
